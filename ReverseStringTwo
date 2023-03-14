@@ -1,0 +1,14 @@
+
+public class ReverseStringTwo{
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter string: ");
+        String userInput = sr.nextLine();
+
+        StringBuilder sc = new StringBuilder(userInput);
+
+        String reversedString = sc.reverse().toString();
+
+        System.out.println(reversedString);
+    }
+}
